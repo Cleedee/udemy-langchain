@@ -42,7 +42,7 @@ def main():
     )
 
     chain3 = prompt | llm
-    res = chain3.invoke({"iput": input})
+    res = chain3.invoke({"input": input})
     print(res.content)
 
 
